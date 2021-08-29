@@ -1,0 +1,5 @@
+file = open("output.txt", "a")
+file.write("Hello World\n")
+file.close()
+x = open("output.txt", "r")
+print(x.read())
